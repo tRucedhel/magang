@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:wght@500;600;700;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* BACKGROUND */
+body {
+    background-image: url(../assets/bg-strip.svg);
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+    /* max-width: 1440px;
+  min-height: 788px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff; */
+}
+
+/* LOGO */
+.frame-logo,
+.frame-gambar-text {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+.frame-logo,
+.frame-gambar-text {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.frame-logo {
+    gap: 20px;
+    padding: 12px 16px 12px;
+    max-width: 600px;
+    min-height: 68px;
+    border-radius: 16px 16px 16px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.frame-gambar-text {
+    gap: 7px;
+    max-width: 530px;
+    min-height: 50px;
+}
+
+.logo-gambar {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    max-width: 90.625px;
+    max-height: 50px;
+}
+
+.text-logo {
+    width: 100%;
+    max-width: auto;
+    min-height: auto;
+}
+
+.font-logo {
+    color: #3e4095;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+/* KOTAK */
+
+.frame-konten {
+    gap: 56px;
+    display: flex;
+    padding: 56px 102px;
+    position: relative;
+    max-width: 922px;
+    box-shadow: 0 4px 40px 0 rgba(12, 47, 90, .15);
+    min-height: 326px;
+    border-radius: 16px 16px 16px 16px;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    background-color: #fff;
+
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+}
+
+.frame-home1,
+.frame-home2,
+.home-instance {
+    width: 100%;
+    max-width: 352px;
+    box-sizing: border-box;
+    min-height: 214px;
+}
+
+.frame-home1,
+.frame-home2 {
+    gap: 24px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.frame-home2 {
+    gap: 10px;
+    min-height: 92px;
+    align-items: center;
+}
+
+.home-text {
+    width: 100%;
+    max-width: 352px;
+    margin-top: 0;
+    min-height: auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.font-home {
+    color: #121212;
+    font-size: 35px;
+    font-style: normal;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+
+.font-home,
+.home-text1,
+.font-home1 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.home-text1 {
+    width: 100%;
+    max-width: 352px;
+    min-height: auto;
+}
+
+.font-home1 {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.frame-home3 {
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    max-width: 352px;
+    box-sizing: border-box;
+    min-height: 98px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.frame-home4,
+.home-instance1 {
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.frame-home4 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    max-width: 156px;
+    border-top: 1px solid #e0e0e0;
+    min-height: 98px;
+    align-items: center;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 16px 16px 16px 16px;
+    background-color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home-instance1 {
+    overflow: hidden;
+    max-width: 48px;
+    min-height: 48px;
+    align-items: flex-start;
+}
+
+.home-text2,
+.font-home2 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.home-text2 {
+    width: 100%;
+    max-width: 136px;
+    min-height: auto;
+}
+
+.font-home2 {
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+
+.frame-home5,
+.home-instance2 {
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.frame-home5 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    max-width: 156px;
+    border-top: 1px solid #e0e0e0;
+    min-height: 98px;
+    align-items: center;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 16px 16px 16px 16px;
+    background-color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home-instance2 {
+    overflow: hidden;
+    max-width: 48px;
+    min-height: 48px;
+    align-items: flex-start;
+}
+
+.home-text3,
+.font-home3 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.home-text3 {
+    width: 100%;
+    max-width: 136px;
+    min-height: auto;
+}
+
+.font-home3 {
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+
+.frame-home6 {
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    max-width: 310px;
+    box-sizing: border-box;
+    min-height: 214px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.home-maskot {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    max-width: 311px;
+}
+
+/* SIMFONI */
+
+.logo-simfoni {
+    top: 547px;
+    left: 0px;
+    right: 0px;
+    width: 271px;
+    height: 92px;
+    margin: auto;
+    display: flex;
+    opacity: 0.15;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.home-vector01 {
+    top: 29px;
+    left: 38px;
+    width: 28px;
+    height: 38px;
+    position: absolute;
+}
+
+.home-vector02 {
+    top: 30px;
+    left: 69px;
+    width: 12px;
+    height: 36px;
+    position: absolute;
+}
+
+.home-vector03 {
+    top: 29px;
+    left: 87px;
+    width: 58px;
+    height: 37px;
+    position: absolute;
+}
+
+.home-vector04 {
+    top: 16px;
+    left: 152px;
+    width: 22px;
+    height: 50px;
+    position: absolute;
+}
+
+.home-vector05 {
+    top: 29px;
+    left: 176px;
+    width: 35px;
+    height: 38px;
+    position: absolute;
+}
+
+.home-vector06 {
+    top: 29px;
+    left: 214px;
+    width: 36px;
+    height: 37px;
+    position: absolute;
+}
+
+.home-vector07 {
+    top: 30px;
+    left: 256px;
+    width: 12px;
+    height: 36px;
+    position: absolute;
+}
+
+.home-vector08 {
+    top: 0px;
+    left: 0px;
+    width: 39px;
+    height: 46px;
+    position: absolute;
+}
+
+.home-vector09 {
+    top: 0px;
+    left: 23px;
+    width: 32px;
+    height: 33px;
+    position: absolute;
+}
+
+.home-vector10 {
+    top: 0px;
+    left: 46px;
+    width: 24px;
+    height: 18px;
+    position: absolute;
+}
+
+.home-text4 {
+    top: 68px;
+    left: 196px;
+    color: rgba(168, 31, 37, 1);
+    width: 75px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.home-text5 {
+    top: 679px;
+    left: 0px;
+    color: rgba(117, 117, 117, 1);
+    right: 0px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.c_home-text12 {
+    width: 100%;
+    max-width: auto;
+    min-height: auto;
+}
+
+.c_home-text13 {
+    color: #757575;
+    font-size: 11px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -.24338029325008392px;
+    text-transform: none;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}

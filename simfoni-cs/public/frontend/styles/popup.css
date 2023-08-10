@@ -16,42 +16,29 @@
     align-items: center;
     border-radius: 30px 30px 30px 30px;
     background-color: #fff;
+    /* font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: #ffffff; */
   }
 
-  .inside-popup-content,
-  .p{
-    width: 100%;
-    position: relative;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 24px;
-    padding: 25px;
-    max-width: 385px;
-    box-shadow: 0 4px 40px 0 rgba(12,47,90,.15);
-    min-height: 245px;
-    align-items: center;
-    border-radius: 30px 30px 30px 30px;
-    background-color: #fff;
-    font-family: Poppins;
+  .text-jud{
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: black;
   }
-
-  .inside-popup-content,
-  .h3{
-    width: 100%;
-    position: relative;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 24px;
-    padding: 25px;
-    max-width: 385px;
-    box-shadow: 0 4px 40px 0 rgba(12,47,90,.15);
-    min-height: 245px;
-    align-items: center;
-    border-radius: 30px 30px 30px 30px;
-    background-color: #fff;
-    font-family: Poppins;
+  .text-ket{
+    font-size: 14px;
+    font-style: normal;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    color: #757575;
   }
   
   .popup-container {
@@ -97,7 +84,7 @@
   }
   
   
-  .button-back-konfirmasi{
+  .button-back-konfirmasi-ya{
     border: 1px;
     border-style: solid;
     border-color: #C02929;
@@ -110,10 +97,41 @@
     cursor: pointer;
   }
   
+  .button-back-konfirmasi-tidak{
+    border: 1px;
+    border-style: solid;
+    border-color: #C02929;
+    width: 147px;
+    height: 60px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #C02929;
+    cursor: pointer;
+  }
+
   .text-button-back{
     font-size: 16px;
     font-style: normal;
     font-family: "Poppins",sans-serif;
     font-weight: 500;
     line-height: normal;
+  }
+
+  .text-button-back-ya{
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: #C02929;
+  }
+
+  .text-button-back-tidak{
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    color: #ffffff;
   }
